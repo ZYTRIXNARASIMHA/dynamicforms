@@ -1,0 +1,138 @@
+[
+    {
+        "controlName": "firstName",
+        "id": "firstName",
+        "label": "First Name",
+        "type": "text",
+        "controlStyleClass": "form-control",
+        "layoutStyleClass": "col-md-6 col-xs-12",
+        "placeholder": "Enter First Name",
+        "value": "",
+        "validation": {
+            "required": true,
+            "maxLength": 100
+        }
+    },
+    {
+        "controlName": "lastName",
+        "id": "lastName",
+        "label": "Last Name",
+        "type": "text",
+        "controlStyleClass": "form-control",
+        "layoutStyleClass": "col-md-6 col-xs-12",
+        "placeholder": "Enter Last Name",
+        "value": "",
+        "validation": {
+            "required": true,
+            "maxLength": 100
+        }
+    },
+    {
+        "controlName": "gender",
+        "label": "Gender",
+        "type": "select",
+        "controlStyleClass": "form-control",
+        "layoutStyleClass": "col-md-6 col-xs-12",
+        "validation": {
+            "required": true,
+            "email": null,
+            "minLength": 0,
+            "maxLength": 500,
+            "min": 0,
+            "max": 0,
+            "regex": null
+        },
+        "property": {
+            "options": [
+                {
+                    "label": "Male",
+                    "value": "M"
+                },
+                {
+                    "label": "FeMale",
+                    "value": "F"
+                },
+                {
+                    "label": "Other",
+                    "value": "O"
+                }
+            ],
+            "filter": false
+        }
+    },
+    {
+        "controlName": "dob",
+        "label": "DOB",
+        "type": "date",
+        "layoutStyleClass": "col-md-6 col-xs-12",
+        "validation": {
+            "required": true,
+            "email": null,
+            "minLength": 0,
+            "maxLength": 500,
+            "min": 0,
+            "max": 0,
+            "regex": null
+        },
+        "property": {
+            "format": "dd-mm-yy",
+            "type": "string"
+        }
+    },
+    {
+        "controlName": "email",
+        "id": "email",
+        "label": "Email",
+        "type": "text",
+        "controlStyleClass": "form-control",
+        "layoutStyleClass": "col-md-6 col-xs-12",
+        "placeholder": "Enter Email ID",
+        "value": "",
+        "validation": {
+            "required": true,
+            "email": true,
+            "maxLength": 50
+        },
+        "property": {
+            "type": "email"
+        }
+    },
+    {
+        "controlName": "role",
+        "label": "Permission",
+        "type": "multiselect",
+        "controlStyleClass": "d-block",
+        "layoutStyleClass": "col-md-6 col-xs-12",
+        "validation": {
+            "required": true,
+            "email": null,
+            "minLength": 0,
+            "maxLength": 500,
+            "min": 0,
+            "max": 0,
+            "regex": null
+        },
+        "property": {
+            "options": [
+                {
+                    "label": "Can Read",
+                    "value": "R"
+                },
+                {
+                    "label": "Can Write",
+                    "value": "W"
+                },
+                {
+                    "label": "Both",
+                    "value": "B"
+                }
+            ]
+        }
+    },
+    {
+        "controlName": "address",
+        "label": "Address",
+        "type": "editor",
+        "layoutStyleClass": "col-md-12 col-xs-12"
+    }
+]
