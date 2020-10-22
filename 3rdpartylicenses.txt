@@ -65,6 +65,9 @@ MIT
 @angular/platform-browser
 MIT
 
+@angular/router
+MIT
+
 bootstrap
 MIT
 The MIT License (MIT)
@@ -169,6 +172,8 @@ SOFTWARE.
 primeng
 MIT
 
+primeng/accordion
+
 primeng/api
 
 primeng/autocomplete
@@ -178,6 +183,8 @@ primeng/calendar
 primeng/checkbox
 
 primeng/dropdown
+
+primeng/dynamicdialog
 
 primeng/editor
 
